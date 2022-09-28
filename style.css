@@ -5,7 +5,9 @@
     list-style: none;
     text-decoration: none;
     font-family: sans-serif;
+   
 }
+
 
 
 
@@ -81,4 +83,19 @@ main .botao a{
     main .botao a:hover{
         background-color:rgb(72, 128, 224) ;
         transition: all 0.5s;
+    }
+
+    main .imagem-principal img{
+        width: 500px;
+        animation: float 100s  infinite linear; 
+        margin-left: 200px;
+    }
+
+    @keyframes float {
+        0%{
+             transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(359deg);
+        }
     }

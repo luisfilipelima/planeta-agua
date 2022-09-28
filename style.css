@@ -81,7 +81,7 @@ main .botao a{
     font-weight: 700;}
 
     main .botao a:hover{
-        background-color:rgb(72, 128, 224) ;
+        background-color:rgb(30, 64, 121) ;
         transition: all 0.5s;
     }
 
